@@ -57,7 +57,7 @@ app = Playground(agents=[web_agent, finance_agent]).get_app()
 # Middleware CORS (ajusta la URL a tu frontend si cambia)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=['https://examenmodelado-interfaz-243206011882.europe-west1.run.app/'],
+    allow_origins=['https://examenmodelado-interfaz-243206011882.europe-west1.run.app/',],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
